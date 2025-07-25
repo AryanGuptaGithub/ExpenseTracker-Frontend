@@ -1,0 +1,684 @@
+/* RESPONSIVE IMPROVEMENTS */
+@media screen and (max-width: 768px) {
+  .Expense-List {
+    margin: 2rem;
+    height: auto;
+    
+  }
+
+  .ExpenseItems {
+    flex-direction: row;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+ 
+  .Links {
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    /* border: 1px solid red; */
+  }
+
+ 
+
+  .Links ul {
+    flex-direction: row;
+      /* border: 1px solid black; */
+      font-size: 10px;
+      justify-content: end;
+  }
+
+  .add-expense-form-content {
+  
+        min-width: 80%; 
+    /* padding: 20px; */
+  }
+
+  .new-expense__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .Split-Container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .Split-List-Container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Navigation {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 10%;
+    padding: 0 0.5rem;
+    
+  }
+
+  .Logo {
+    justify-content: flex-start;
+    font-size: 12px;
+    
+  }
+
+  .Navigation img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Addbutton {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .new-expense__control {
+    min-width: 100%;
+  }
+
+  .Split {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  .Add-Member-Manually div {
+    flex-direction: column;
+  }
+
+  .Add-Member-Manually form {
+    flex-direction: column;
+  }
+
+  .Split-List-Item {
+    padding: 15px;
+  }
+   .container{
+    margin-bottom: 2rem;
+  
+  } 
+   .container{
+    max-width: 40%;
+    min-width: 20%;
+  }
+
+}
+
+@media screen and (max-width: 370px) {
+  .Expense-List {
+    
+    height: auto;
+    
+  }
+
+  .ExpenseItems {
+    flex-direction: row;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .Links {
+    display: none;  
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    border: 1px solid red;
+    
+  }
+
+  .Links ul {
+    flex-direction: row;
+     
+      font-size: 10px;
+      justify-content: end;
+  }
+
+      .add-expense-form-content {
+        max-width: 95%;
+        padding: 20px;
+        margin: 0 auto;
+              
+        min-width: 70%; 
+    }
+
+  .new-expense__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .Split-Container {
+    flex-direction: column;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .Split-List-Container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Navigation {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    /* border: 1px solid black; */
+  }
+
+  .Logo {
+    justify-content: flex-start;
+    font-size: 12px;
+  }
+
+  .Navigation img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Addbutton {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .new-expense__control {
+    min-width: 100%;
+  }
+
+  .Split {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  .Add-Member-Manually div {
+    flex-direction: column;
+  }
+
+  .Add-Member-Manually form {
+    flex-direction: column;
+  }
+
+  .Split-List-Container{
+   display: flex;
+   flex-wrap: wrap;
+    
+  }
+
+  .Split-Container{
+      /* border: 1px solid black; */
+      margin: 0 auto;
+      max-width: 90%;
+      margin: 0;
+      height: auto;
+  }
+
+  .Split-List-Item {
+   padding: 0;
+    font-size: 11px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    max-width: 10px;
+    height: 10px;
+  }
+
+  .Split-List-Item span{
+    display: none;
+
+  }
+
+  .Split-List{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+ .members-form-headings{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .Add-Members-Form{
+  max-width: 100%;
+ }
+
+ .Add-Members-Form input {
+  max-width: 100%;
+ }
+
+ .Button-Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+ 
+  gap: 50px;
+ }
+ 
+ .Button-Container button{
+  min-width: 50%;
+ }  
+ .Add-Member-Manually div {
+        flex-direction: row;
+    }
+
+}
+
+
+/* --- All Your Original Styles Remain Below --- */
+
+
+.Expense-List{
+    
+    margin:1rem 1rem;
+    height: 90%;
+}
+
+
+
+
+
+.ExpenseItems{
+
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;    
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Expense-Items-Description{
+    font-size: 16px;
+    color: #0a8e9c;
+    font-weight: 800;
+}
+.Expense-Items-Amount{
+    font-size: 1rem;
+    color: rgb(17, 186, 17);
+    font-weight: 700;
+}
+
+.Button{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+}
+
+.Addbutton {
+  padding: 13px 20px;
+  border-radius: 50px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: all 0.5s ease;
+  text-align: center;
+  font-weight:200;
+  border: 2px solid hsl(125, 73%, 37%);
+  background-color: hsl(125, 85%, 36%);
+}
+
+.Addbutton:hover {
+  letter-spacing: 3px;
+  background-color:hsl(125, 80%, 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(57, 233, 95) 0px 7px 29px 0px;
+}
+
+.Addbutton:active {
+  letter-spacing: 3px;
+  background-color:hsl(125, 80%, 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(24, 220, 76) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.Navigation{
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  max-width:100%;
+  justify-content: space-between;
+ padding: 0 1rem;
+  color: rgb(127, 194, 27);
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+
+.Logo{
+    display: flex;
+    gap: 5%;
+    align-items: center;  
+      max-width:fit-content;
+    justify-content: center;
+    align-items: center;
+ 
+    font-size: 10px;
+}
+
+.Navigation img{
+    width: 50px;
+    height: 50px;
+}
+
+.Links{
+    color: rgb(231, 74, 53);
+   margin-right: 10rem;
+  font-size: 1rem;
+  font-weight: 600; 
+
+}
+
+.Links ul{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+
+
+.add-expense-form-content {
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+   
+    max-width: 50%; 
+    margin: 1rem 1rem;
+
+}
+
+
+.add-expense-form-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    margin-bottom: 1rem; 
+   
+}
+
+
+.new-expense__control {
+    flex: 1; 
+    min-width: 15rem; 
+    margin-bottom: 1rem; 
+  
+}
+
+
+.new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem; 
+    display: block; 
+    color: #555; 
+}
+
+
+.new-expense__control input {
+    font: inherit; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    width: 100%;
+
+    box-sizing: border-box; 
+    font-size: 16px; 
+    
+}
+
+
+.new-expense__control input:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+
+.new-expense__actions {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 1rem; 
+    margin-top: 20px;
+   
+}
+
+
+.new-expense__actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem; 
+    border: none; 
+    border-radius: 12px; 
+    color: white;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    font-size: 16px; 
+}
+
+
+.new-expense__actions button[type='submit'] {
+    background-color: #0a910f; 
+}
+
+.new-expense__actions button[type='submit']:hover,
+.new-expense__actions button[type='submit']:active {
+    background-color: #f57811; 
+}
+
+
+.new-expense__actions button[type='button'] {
+    background-color: #a8222f; 
+}
+
+.new-expense__actions button[type='button']:hover,
+.new-expense__actions button[type='button']:active {
+    background-color: #c82333; 
+}
+
+.crossButton{
+
+  cursor: pointer;
+  font-size: 1.5rem;
+ display: flex;
+ justify-content: end;
+}
+
+.crossButton Button{
+  font-size: 1.5rem;
+}
+
+.Split{
+  display: flex;
+  align-items: center; 
+  position: relative;
+  border: 1px solid #949494;
+  border-radius: 5px;
+ padding-left: 20px;
+  max-width: 100%;
+  max-height: 60px;
+  padding: 5px 20px;
+}
+
+.Split p{
+  font-size: 1rem;
+  
+}
+
+.Split-Icon{
+  font-size: 1.5rem;
+  margin-top: 9px;
+  margin-left: 10px;
+  
+}
+
+.Split-Container{
+  display: flex;
+  gap: 1rem;
+  /* border: px solid black; */
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 1rem;
+  flex-wrap: wrap
+}
+
+.Split-List-Item{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.Split-List{
+  display: flex;
+  /* border: 1px solid black; */
+  
+  flex-direction: column;
+}
+
+.Split-List-Container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-direction: row;
+  border: 1x solid black;
+  height: 70px;
+} 
+
+.Add-Member-Manually form{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+
+ 
+}
+
+.Split-List-Item span{
+  color: #ed5729  
+}
+
+
+
+.Add-Member-Manually div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Add-Member-Manually form input{
+  padding: 10px;
+  border: 1px solid #949494;
+  border-radius: 5px;
+}
+
+.Add-Member-Manually form input:focus{
+  outline: none;
+  border-color: #007bff; 
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.Add-Member-Manually form button{
+  padding: 10px;  
+  border: 1px solid #949494;
+  border-radius: 5px;
+  background-color: #0a910f;
+  color: white;
+  cursor: pointer;
+}
+
+.selector:active{
+  background: #3dc510;
+  color: rgb(255, 255, 255);
+  border: 1px solid #5bf528;
+    scale: -1;
+  
+}
+
+.selector:hover{
+  background: #57e02a;
+  color: rgb(255, 255, 255);
+  border: 1px solid #5bf528;
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.ButtonSelected{
+  background: #000000;
+  color: rgb(246, 190, 6);
+  border: 1px solid #5bf528;
+}
+
+.total-expense{
+border: 1px solid black;
+padding: 20px;
+border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.total-expense-head{
+
+    line-height: 1.1;
+    margin: 0;
+}
+
+.total-expense-head h1{
+  font-size: 2rem;
+  margin: 0;
+}
+.per-head{
+ 
+  line-height: 1.1;
+  margin: 0;
+}
+.per-head h1{
+    
+  margin: 0;
+}
+
+.container{
+  border: 2pc solid blue;
+}
+
+
+.grid-center-container {
+  display: grid;
+  place-items: center;
+  
+}
+
+.SplitingIn{
+  border: 1px solid black;
+  padding: 0px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
